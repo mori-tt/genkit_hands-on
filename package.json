@@ -1,0 +1,19 @@
+{
+  "name": "genkit_hands-on",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "genkit-cli": "^0.9.12"
+  },
+  "dependencies": {
+    "@genkit-ai/googleai": "^0.9.12",
+    "genkit": "^0.9.12"
+  }
+}
