@@ -5,7 +5,7 @@ logger.setLogLevel("debug");
 
 const ai = genkit({
   plugins: [googleAI()],
-  model: gemini15Flash,
+  model: gemini15Flash.withConfig({ codeExecution: true }),
 });
 
 const mainFlow = ai.defineFlow(
